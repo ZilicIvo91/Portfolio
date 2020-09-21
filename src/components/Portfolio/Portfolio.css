@@ -1,0 +1,13 @@
+.portfolio-container{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    height: auto;
+}
+h3 {
+    margin-left: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-bottom: 3px solid black;
+}

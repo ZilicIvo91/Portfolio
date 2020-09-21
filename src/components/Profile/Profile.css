@@ -1,0 +1,29 @@
+.profile-container{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    height: 65%;
+}
+.profile-left {
+    text-align: left;
+    margin: 0px 20px;
+    border-right: 1px solid black;
+}
+.profile-left > h2, h3 {
+    padding: 5px;
+}
+.profile-left > button {
+    width: 100px;
+    height: 40px;
+    margin: 5px ;
+}
+@media screen and (max-width: 900px) {
+    .profile-container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        margin: auto auto;
+    }
+}
