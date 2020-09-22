@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import slika from '../../image/slika.png';
+import picture from '../../image/picture.jpg';
 import { MenuItems } from './MenuItems';
 import { FaTimes } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
@@ -15,7 +15,9 @@ export default function Navbar() {
     }
     return (
         <nav className='Navbar-Items'>
-            <Link to="/"><img src={slika} alt='slika' /></Link>
+           
+
+            <Link to="/"><img src={picture} alt='picture' /></Link>
             <div className='menu-icon' onClick={handleClick}>
                 {clicked ? <FaTimes /> : <FaBars />}
             </div>

@@ -2,22 +2,48 @@
     color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid black;
-    height: 65%;
+    height: 55%;
 }
 .profile-left {
     text-align: left;
     margin: 0px 20px;
     border-right: 1px solid black;
 }
-.profile-left > h2, h3 {
+.profile-left > h2, h3, p {
     padding: 5px;
 }
 .profile-left > button {
     width: 100px;
     height: 40px;
-    margin: 5px ;
+    margin-left: 100px;
+    margin-top: 20px;
 }
+.profile-left > button:hover {
+    color: blanchedalmond;
+}
+.profile-center{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+.profile-picture > img{
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+}
+.profile-socialNetworks{
+    color: black;
+    cursor: pointer;
+    width: 80%;
+    font-size: 2.5rem;    
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 100px;
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     .profile-container{
         display: flex;

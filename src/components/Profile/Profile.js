@@ -1,19 +1,24 @@
 import React from 'react';
 import './Profile.css';
+import { Link } from 'react-router-dom';
 import { FaFacebook } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';
+import office from '../../image/office.jpg';
+
 
 export default function Profile() {
     return (
-        <div className='profile-container'>
+        <>
+            <div className='profile-container'>
+
             <div className="profile-left">
-                <h2>Hello...</h2>
-                <h2>My name is Ivo</h2>
+                <h1>Hello...</h1>
+                <h1>My name is Ivo</h1>
                 <h3>Front-End Developer</h3>
                 <p>I can call myself a Junior Front-End Developer. I like to do that, and I would like to do that to the end. I learn quickly, adopt new technologies, and I'm always ready to improve my knowledge...</p>
-                <button>Download</button>
+                <button>Download CV</button>
             </div>
             <div className='profile-center'>
                 <p>FULL NAME: Ivo Žilić</p>
@@ -23,15 +28,16 @@ export default function Profile() {
                 <p>PHONE: 0977691991</p>
             </div>
             <div className='profile-picture'>
-
+                <img src={office} alt="office" />
+            </div>
             </div>
             <div className='profile-socialNetworks'>
-                <FaFacebook />
-                <AiFillLinkedin />
-                <AiFillGithub />
-                <AiOutlineInstagram />
+                <a href="https://www.facebook.com/ivo.zilic/" target="_black"><FaFacebook /></a>
+                <a href="https://www.linkedin.com/in/ivo-%C5%BEili%C4%87-ab8879136/" target="_black"><AiFillLinkedin /></a>
+                <a href="https://github.com/ZilicIvo91" target="_black"><AiFillGithub /></a>
+                <a href="https://www.instagram.com/ivoziliiic/" target="_black"><AiOutlineInstagram /></a>
             </div>
             
-        </div>
+        </>
     )
 }

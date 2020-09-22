@@ -9,11 +9,12 @@ body {
   border: 1px solid black;
   background: url('./image/bg-image.jpg') center center/cover;
   background-repeat: inherit;
-  
+  overflow: auto;
 }
 .App {
-  width: 70vw;
-  height: 85vh;
+  width: 80vw;
+  height: 95vh;
+  overflow: auto;
   background-color: #ffffff;
   margin: 50px auto;
   color: #ffffff;
