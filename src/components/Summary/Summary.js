@@ -7,7 +7,7 @@ export default function Summary() {
     return (
         <div className="summary-container">
             <div className="summary-myAbilities">
-                <h2>My Abilities</h2>
+                <h2 className="summary-header">My Abilities</h2>
                 <p><AiOutlineArrowRight /> MS Office package</p>
                 <p><AiOutlineArrowRight /> HTML 5</p>
                 <p><AiOutlineArrowRight /> CSS 3</p>
@@ -16,8 +16,8 @@ export default function Summary() {
                 <p><AiOutlineArrowRight /> Bootstrap</p>
                 <p><AiOutlineArrowRight /> React</p>
             </div>
-            <div className="summary-personalQualities">
-                <h2>Personal Qualities</h2>
+            <div className="summary-personal-qualities">
+                <h2 className="summary-header">Personal Qualities</h2>
                 <p><AiOutlineArrowRight /> Dedicated to work</p>
                 <p><AiOutlineArrowRight /> Communicative and responsible</p>
                 <p><AiOutlineArrowRight /> Fast learning and adoption of new technologies</p>
@@ -25,7 +25,7 @@ export default function Summary() {
             </div>
             <div className="summary-otherAbilities">
 
-            <h2>Other Abilities</h2>
+            <h2 className="summary-header">Other Abilities</h2>
             <p><AiOutlineArrowRight /> English - Professional Working Proficiency</p>
             <p><AiOutlineArrowRight /> German - Full Professional Proficiency</p>
             </div>

@@ -2,12 +2,20 @@
     color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px solid black;
     height: auto;
+    margin-left: 20px;
 }
-.portfolio-container > h3 {
+.portfolio-header{
     margin-left: 10px;
     margin-bottom: 25px;
     padding: 10px;
     border-bottom: 3px solid black;
+}
+.portfolio-images{
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+
 }

@@ -1,4 +1,4 @@
-.Navbar-Items{
+.navbar-Items{
     height: 200px;
     display: flex;
     justify-content: center;
@@ -6,11 +6,12 @@
     font-size: 1.2rem;
 }
 
-.Navbar-Items > a > img {
+.navbar-Items > a > img {
     justify-self: start;
     margin-left: 30px;
     width: 150px;
     height: 150px;
+    border: blue;
 }
 
 .nav-menu {
@@ -23,16 +24,27 @@
     justify-content: end;
     margin-right: 2rem;
 }
+.nav-menu.active{
+    border: 1px solid black;
+}
+.nav-menu a{
+    text-decoration: none;
+}
 
 .nav-links{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.nav-links:hover{
+.nav-menu active{
+    border: 1px black solid;
+}
+.nav-links:hover,
+.nav-menu-active {
     background-color: #1e33a8;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
+
 
 .menu-icon {
     display: none;

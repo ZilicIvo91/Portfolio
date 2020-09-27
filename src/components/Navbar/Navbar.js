@@ -14,7 +14,7 @@ export default function Navbar() {
         setclicked(!clicked);
     }
     return (
-        <nav className='Navbar-Items'>
+        <nav className='navbar-Items'>
            
 
             <Link to="/"><img src={picture} alt='picture' /></Link>
