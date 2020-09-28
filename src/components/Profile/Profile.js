@@ -1,6 +1,5 @@
 import React from 'react';
 import './Profile.css';
-import { Link } from 'react-router-dom';
 import { FaFacebook } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
@@ -11,7 +10,7 @@ import office from '../../image/office.jpg';
 export default function Profile() {
     return (
         <>
-            <div className='profile-container'>
+        <div className='profile-container'>
 
             <div className="profile-left">
                 <h1>Hello...</h1>

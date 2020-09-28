@@ -15,9 +15,7 @@ export default function Navbar() {
     }
     return (
         <nav className='navbar-Items'>
-           
-
-            <Link to="/"><img src={picture} alt='picture' /></Link>
+            <Link to="/"><img src={picture} alt='profile' /></Link>
             <div className='menu-icon' onClick={handleClick}>
                 {clicked ? <FaTimes /> : <FaBars />}
             </div>

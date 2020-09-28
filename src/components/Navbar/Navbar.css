@@ -24,9 +24,7 @@
     justify-content: end;
     margin-right: 2rem;
 }
-.nav-menu.active{
-    border: 1px solid black;
-}
+
 .nav-menu a{
     text-decoration: none;
 }
@@ -52,10 +50,11 @@
 
 
 @media screen and (max-width: 900px) {
-    .Navbar-Items{
+    .navbar-Items{
+        margin-top: 20px;
         position: relative;
     }
-    .Navbar-Items > a {
+    .navbar-Items > a {
         position: absolute;
         top: 10px;
         left: 20px;

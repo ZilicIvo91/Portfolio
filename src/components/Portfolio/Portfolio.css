@@ -9,13 +9,25 @@
     margin-left: 10px;
     margin-bottom: 25px;
     padding: 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
 .portfolio-images{
     font-size: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
-
-
+}
+@media screen and (max-width: 900px){
+    .portfolio-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto 30px;
+    }
+    .portfolio-images{
+        text-align: center;
+        font-size: 1.2rem;
+    }
 }

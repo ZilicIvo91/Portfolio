@@ -8,7 +8,10 @@
     margin-left: 10px;
     margin-bottom: 25px;
     padding: 10px;
-    border-bottom: 3px solid black;
+    border-bottom: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
 }
 
 .summary-myAbilities > p, 
@@ -23,5 +26,12 @@
 
 
 @media screen and (max-width: 900px) {
-
+    .summary-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto 30px;
+    }
+    .summary-otherAbilities{
+        margin-bottom: 30px;
+    }
 }

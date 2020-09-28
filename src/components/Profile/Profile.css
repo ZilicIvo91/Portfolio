@@ -52,5 +52,23 @@
         width: 80%;
         justify-content: center;
         margin: auto auto;
+        text-align: center;
+    }
+    
+    .profile-left {
+        border-right: none;
+        margin: 0;
+    }
+    .profile-left button {
+        margin: 50px 0;
+    }
+    .profile-center {
+        margin: 0;
+        margin-bottom: 40px;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    }
+    .profile-socialNetworks{
+        margin: 40px auto;
     }
 }
