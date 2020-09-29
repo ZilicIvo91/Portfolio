@@ -12,7 +12,7 @@ export default function Navbar() {
 
     const handleClick = (e) =>{
         setclicked(!clicked);
-    }
+    };
     return (
         <nav className='navbar-Items'>
             <Link to="/"><img src={picture} alt='profile' /></Link>
@@ -22,7 +22,7 @@ export default function Navbar() {
             <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                 {MenuItems.map((item, index) => {
                     return (
-                        <li key={index} className={item.cName}>
+                        <li key={index} className={item.cName} onClick={handleClick}  >
                             <Link to={item.url}>{item.title}</Link>
                         </li>
                     )
