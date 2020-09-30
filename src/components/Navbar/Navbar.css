@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .navbar-Items > a > img {
@@ -87,11 +87,10 @@
         background: #757fee;
         border-radius: 0;
     }
-    .Navbar-Items > img {
+    .navbar-Items > a > img {
        position: absolute;
        top: 0;
-       left: 0;
-       transform: translate(25%, 50%);
+       left: 10px;
     }
     .menu-icon{
         display: block;

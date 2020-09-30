@@ -12,8 +12,8 @@ export default function Contact() {
            <h3>Contact info</h3>
            <p>If you have any questions, feel free to contact me.</p>
            <div className="contact-info">
-            <p className="p-border"><AiOutlineMail /> ivozilic@hotmail.com</p>
-            <p><AiOutlineMobile /> 0977691991</p>
+            <p className="p-border"><AiOutlineMail />  ivozilic@hotmail.com</p>
+            <p><AiOutlineMobile />  0977691991</p>
            </div>
            <div className="contact-picture">
                 <img src={coffeeBreak} alt="coffee-break" />
