@@ -14,7 +14,8 @@
     border-image-source: linear-gradient(to top, #743ad5, #d53a9d);
     
 }
-.profile-left > h2, h3, p {
+.profile-left > h2, h3, p, a {
+    text-decoration: none;
     padding: 5px;
 }
 .profile-left > button {
@@ -22,6 +23,7 @@
     height: 7vh;
     margin-left: 100px;
     margin-top: 20px;
+    font-size: 1rem;
 }
 .profile-left > button:hover {
     color: blanchedalmond;

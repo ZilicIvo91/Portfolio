@@ -33,9 +33,6 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.active > li > a:active{
-    border: 1px solid black;
-}
 .nav-links:hover,
 .nav-menu-active {
     background-color: #1e33a8;
