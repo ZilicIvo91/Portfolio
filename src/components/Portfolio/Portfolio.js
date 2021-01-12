@@ -37,16 +37,16 @@ export default function Portfolio() {
             <div className="portfolio-projects">
                 <h2 className="header">Some Of Projects</h2>
                 <div className="portfolio-project">    
-                    <a href="https://servisapp.netlify.app/" target="_blank">
-                        <img src={tokic} /> 
+                    <a href="https://servisapp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={tokic} alt="Tokic"/> 
                     </a>             
                     
-                    <a href="https://pokemon-application.netlify.app/" target="_blank">
-                        <img src={Poke_Ball} /> 
+                    <a href="https://pokemon-application.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={Poke_Ball} alt="PokeBall"/> 
                     </a>
                     
-                    <a href="https://chat-zilic.netlify.app/" target="_blank">
-                        <img src={chat} /> 
+                    <a href="https://chat-zilic.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <img src={chat} alt="chat"/> 
                     </a>       
                 </div>
             </div>

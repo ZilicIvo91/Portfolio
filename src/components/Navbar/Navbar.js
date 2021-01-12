@@ -8,7 +8,7 @@ import { FaBars } from 'react-icons/fa';
 
 
 export default function Navbar() {
-    const [clicked, setclicked] = useState(true);
+    const [clicked, setclicked] = useState(false);
     const [value, setValue] = useState("");
 
     const handleClick = (index) =>{
