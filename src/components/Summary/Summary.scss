@@ -1,0 +1,47 @@
+.summary-container{
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+
+    .header{
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-bottom: 25px;
+        padding: 10px;
+        border-bottom: 10px solid;
+        border-image-slice: 1;
+        border-width: 3px;
+        border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    }
+
+    .summary-myAbilities > p, 
+    .summary-personal-qualities > p,
+    .summary-otherAbilities > p {
+        margin-left: 20px;
+        margin-top: 5px;
+        font-size: 1.5rem;
+        padding: 5px;
+        }
+}
+@media screen and (max-width: 1000px) {
+    .summary-container{
+        color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 55%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .summary-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto 30px;
+    
+    .summary-otherAbilities{
+        margin-bottom: 30px;
+    
+    }
+}
+}

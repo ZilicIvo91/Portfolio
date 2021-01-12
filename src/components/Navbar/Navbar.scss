@@ -1,0 +1,100 @@
+.navbar-Items{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    margin-bottom: 30px;
+
+    img{
+        justify-self: start;
+        margin-left: 40px;
+        margin-top: 30px;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .menu-icon {
+        display: none;
+    }
+
+    .nav-menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-gap: 10px;
+        list-style: none;
+        text-align: center;
+        width: 70vw;
+        justify-content: end;
+        margin-right: 2rem;
+    }
+
+    a{
+        text-decoration: none;
+        padding: 1.5rem;
+    
+        &:hover{
+            font-weight: bold;
+        }
+    }
+    .nav-links-active{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-Items{
+        margin-top: 20px;
+        position: relative;
+    
+        .navbar-Items > a {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        img {
+            margin-left: -40px;
+            margin-top: 0px;
+        }
+
+        .nav-menu{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: min-content;
+            position: absolute;
+            border-radius: 50px;
+            top: 170px;
+            left: -100%;
+            opacity: 1;
+            transition: all 0.5s ease;
+        }
+
+        .active{
+            background: #a0a9da;
+            left: 0;
+            opacity: 1;
+            transition: all 0.5s ease;
+            z-index: 1;
+            margin-top: -100px;
+        }
+
+        .nav-links{
+            text-align: center;
+            padding: 2rem;
+            width: 100%;
+        }
+        
+        .menu-icon{
+            display: block;
+            color: black;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-100%, 60%);
+            cursor: pointer;
+        }
+    }
+
+}
